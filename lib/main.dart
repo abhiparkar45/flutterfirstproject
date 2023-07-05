@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
     return Consumer<AppStateNotifier>(
       builder: (context, AppState, child) {
         return MaterialApp(
-          title: "Title Goes Here",
+          title: "Expense Tracker",
           theme: AppTheme.lightTheme,
           darkTheme: AppTheme.darkTheme,
           initialRoute: MyRoutes.initialRoute,
